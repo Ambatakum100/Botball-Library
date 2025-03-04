@@ -71,7 +71,7 @@ void lineFollow(int distance, int speed, int port){
 }
 
 #define CENTER_X 80  // Assuming a 160x120 resolution
-#define TOLERANCE 10 // Allowable error for centering
+#define TOLERANCE 5 // Allowable error for centering
 void cameraFollow(int port, int channel, int ET, int speed, int turnSpeed) {
     while(analog(port)<ET) {
         camera_update();
