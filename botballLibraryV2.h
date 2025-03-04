@@ -254,8 +254,6 @@ void driveStraight(int speed, double distance) {
 
 
 
-#define leftSensor analog(1)
-#define rightSensor analog(2)
 void squareUp(int threshold, int speed) {
     int leftOnLine = 0;
     int rightOnLine = 0;
